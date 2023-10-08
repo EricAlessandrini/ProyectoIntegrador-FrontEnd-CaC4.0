@@ -93,7 +93,7 @@ header nav .open {
   width: 100%;
   height: 90vh;
   position: relative;
-  background-image: url(img/ba1.jpg);
+  background-image: url(../img/ba1.jpg);
   background-position: top;
   background-size: cover;
   display: flex;
@@ -166,19 +166,19 @@ header nav .open {
 .oradores .oradorCard .pictureOrador1 {
   width: 100%;
   height: 50%;
-  background-image: url(/img/steve.jpg);
+  background-image: url(../img/steve.jpg);
   background-size: cover;
 }
 .oradores .oradorCard .pictureOrador2 {
   width: 100%;
   height: 50%;
-  background-image: url(/img/bill.jpg);
+  background-image: url(../img/bill.jpg);
   background-size: cover;
 }
 .oradores .oradorCard .pictureOrador3 {
   width: 100%;
   height: 50%;
-  background-image: url(/img/ada.jpeg);
+  background-image: url(../img/ada.jpeg);
   background-size: cover;
 }
 .oradores .oradorCard .descripcionOrador {
@@ -245,7 +245,7 @@ header nav .open {
 .lugar_fecha .hawaii {
   width: inherit;
   height: 50%;
-  background-image: url(/img/honolulu.jpg);
+  background-image: url(../img/honolulu.jpg);
   background-size: cover;
 }
 .lugar_fecha .lugarFecha_texto {
