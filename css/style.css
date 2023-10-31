@@ -38,7 +38,10 @@ header nav .logo-container {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+>>>>>>> 0f875227307d6084f93f66ca435bf629179d2af7
 }
 header nav .logo-container .logo {
   height: 70px;
@@ -122,7 +125,10 @@ header nav .open {
   color: white;
   border: 1px solid white;
   border-radius: 5px;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+>>>>>>> 0f875227307d6084f93f66ca435bf629179d2af7
 }
 .intro section .btn-comprar {
   padding: 10px;
@@ -131,7 +137,10 @@ header nav .open {
   border: none;
   border-radius: 5px;
   margin-left: 0.35em;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+>>>>>>> 0f875227307d6084f93f66ca435bf629179d2af7
 }
 
 .oradores {
@@ -270,7 +279,10 @@ header nav .open {
   color: white;
   border: 1px solid white;
   border-radius: 5px;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+>>>>>>> 0f875227307d6084f93f66ca435bf629179d2af7
 }
 
 .formulario {
@@ -312,7 +324,10 @@ header nav .open {
   padding: 5px;
 }
 .formulario .form p {
+<<<<<<< HEAD
   padding-top: 10px;
+=======
+>>>>>>> 0f875227307d6084f93f66ca435bf629179d2af7
   font-size: 0.75em;
   color: var(--grey-color);
   text-align: center;
@@ -325,7 +340,10 @@ header nav .open {
   border: none;
   background-color: var(--green-button);
   color: white;
+<<<<<<< HEAD
   cursor: pointer;
+=======
+>>>>>>> 0f875227307d6084f93f66ca435bf629179d2af7
 }
 
 footer {
@@ -438,4 +456,8 @@ footer ul li a {
     text-align: center;
     margin-bottom: 10px;
   }
+<<<<<<< HEAD
 }/*# sourceMappingURL=style.css.map */
+=======
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> 0f875227307d6084f93f66ca435bf629179d2af7
