@@ -5,6 +5,15 @@ logoButton.addEventListener('click', () => {
     window.location.href = "index.html";
 })
 
+// Event Listener del link Comprar Tickets del Header
+
+const linkComprarTickets = document.querySelector('.tickets');
+linkComprarTickets.addEventListener('click', () => {
+    let urlRedirect = "comprar_tickets.html";
+
+    window.location.href = urlRedirect;
+})
+
 // Boton Toggle para la version Mobile del sitio
 
 const menu = document.querySelector('.menu-toggle');
@@ -29,3 +38,26 @@ const formArea = document.getElementById('formularioAnchor');
 btnOrador.addEventListener('click', () => {
     formArea.scrollIntoView({behavior : "smooth"});
 })
+
+// Scroll Effect on Header 
+
+document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('header a');
+
+    links.forEach(link => {
+        link.addEventListener('click', smoothScroll);
+    });
+
+    function smoothScroll(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+        const headerHeight = document.querySelector('header').offsetHeight;
+
+        window.scrollTo({
+            top: targetElement.offsetTop - headerHeight,
+            behavior: 'smooth'
+        });
+    }
+});
