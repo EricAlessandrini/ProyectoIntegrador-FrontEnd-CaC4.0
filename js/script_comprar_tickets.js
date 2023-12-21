@@ -19,6 +19,8 @@ const valorTicket = 200;
 const valorTotal = document.getElementById("valorTotalCompra");
 const cantidadTickets = document.getElementById("ticketAmount");
 const descuentoAplicable = document.getElementById("discountCat");
+
+const valorTotalInput = document.getElementById("valorCompra");
 const btnResumen = document.getElementById("resumen");
 
 var valor = 0;
@@ -87,6 +89,19 @@ btnResumen.addEventListener('click', () => {
         alert("Por favor, complete todos los campos requeridos...");
     } else {
         valorTotal.textContent = calcularTotalCompra();
+        valorCompra.value = calcularTotalCompra();
+    }
+})
+
+const btnComprar = document.getElementById("comprar");
+
+btnComprar.addEventListener('click', () => {
+    var camposValidados = validacionCampos();
+    console.log(validacionCampos());
+    if (camposValidados == false || !ticketAmount.value || !discountCat.value){
+        alert("Por favor, complete todos los campos requeridos...");
+    } else {
+        valorCompra.value = calcularTotalCompra();
     }
 })
 
